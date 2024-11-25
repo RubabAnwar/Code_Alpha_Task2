@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Spot My MusiC</title>
+</head>
+
+<body>
+  <header>
+    <h1>Spot My MusiC</h1>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search Music...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+  
+  <main>
+    <section id="recommended" class="song-section">
+      <h2>Recommended Songs</h2>
+      <ul id="songList" class="song-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div id="footerPlayer" class="footer-player">
+      <img id="footerImg" src="" alt="Song Thumbnail">
+      <div id="footerDetails">
+        <p id="footerTitle">Select a song to play</p>
+        <audio id="audioPlayer" controls></audio>
+      </div>
+    </div>
+  </footer>
+</body>
+
+        </html>
