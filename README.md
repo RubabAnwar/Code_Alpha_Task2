@@ -7,6 +7,10 @@ This project is part of my internship program at **CodeAlpha**. The task was to 
 - **Playback Controls:** Includes interactive buttons for:
   - **Play**
   - **Pause**
+  -  **Playback**
+  - **Forward**
+  -  **Volume Control**
+  - **Speed Control**
 - **Download Option:** Users can download the currently playing track directly from the player.
 - **Album Artwork Display:** Automatically fetches and displays album images for a visually rich experience.
 - **Song Metadata Display:** Shows the song title, artist name, and album details dynamically.
